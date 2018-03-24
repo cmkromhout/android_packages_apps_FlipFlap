@@ -13,7 +13,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-support-v7-recyclerview \
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    org.lineageos.platform.internal
+    org.mokee.platform.internal
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 

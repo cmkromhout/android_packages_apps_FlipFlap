@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2017 The LineageOS Project
+ * Copyright (c) 2017 The mokee Project
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -18,7 +18,7 @@
  *
  */
 
-package org.lineageos.flipflap;
+package org.mokee.flipflap;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -54,8 +54,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import org.lineageos.internal.util.LineageLockPatternUtils;
-import lineageos.providers.LineageSettings;
+import org.mokee.internal.util.LineageLockPatternUtils;
+import mokee.providers.LineageSettings;
 
 public class FlipFlapView extends FrameLayout {
     private static final String TAG = "FlipFlapView";

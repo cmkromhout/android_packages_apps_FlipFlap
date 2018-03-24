@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2017 The LineageOS Project
+ * Copyright (c) 2017 The mokee Project
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -18,7 +18,7 @@
  *
  */
 
-package org.lineageos.flipflap;
+package org.mokee.flipflap;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -26,13 +26,13 @@ import android.preference.PreferenceManager;
 
 import com.android.internal.util.ArrayUtils;
 
-import lineageos.hardware.LineageHardwareManager;
+import mokee.hardware.LineageHardwareManager;
 
 public class FlipFlapUtils {
 
-    static final String OUR_PACKAGE_NAME = "org.lineageos.flipflap";
+    static final String OUR_PACKAGE_NAME = "org.mokee.flipflap";
 
-    static final String ACTION_COVER_CLOSED = "org.lineageos.flipflap.COVER_CLOSED";
+    static final String ACTION_COVER_CLOSED = "org.mokee.flipflap.COVER_CLOSED";
     static final String ACTION_ALARM_ALERT = "com.android.deskclock.ALARM_ALERT";
     static final String ACTION_ALARM_DISMISS = "com.android.deskclock.ALARM_DISMISS";
     static final String ACTION_ALARM_SNOOZE = "com.android.deskclock.ALARM_SNOOZE";

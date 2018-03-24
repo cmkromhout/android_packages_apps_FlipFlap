@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2017 The LineageOS Project
+ * Copyright (c) 2017 The mokee Project
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -18,25 +18,28 @@
  *
  */
 
-package org.lineageos.flipflap;
+package org.mokee.flipflap;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
+import android.widget.LinearLayout;
 
-public class PhonePanel extends RelativeLayout {
-    private static final String TAG = "AlarmPanel";
+public class ClockPanel extends LinearLayout {
+    private static final String TAG = "ClockPanel";
 
-    public PhonePanel(Context context) {
+    private final Context mContext;
+
+    public ClockPanel(Context context) {
         this(context, null);
     }
 
-    public PhonePanel(Context context, AttributeSet attrs) {
+    public ClockPanel(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public PhonePanel(Context context, AttributeSet attrs, int defStyleAttr) {
+    public ClockPanel(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+
+        mContext = context;
     }
 }

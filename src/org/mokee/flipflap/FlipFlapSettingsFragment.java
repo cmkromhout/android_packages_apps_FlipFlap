@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2017 The LineageOS Project
+ * Copyright (c) 2017 The mokee Project
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -18,7 +18,7 @@
  *
  */
 
-package org.lineageos.flipflap;
+package org.mokee.flipflap;
 
 import android.app.ActionBar;
 import android.content.ComponentName;
@@ -39,7 +39,7 @@ import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import org.lineageos.flipflap.R;
+import org.mokee.flipflap.R;
 
 public class FlipFlapSettingsFragment extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener, CompoundButton.OnCheckedChangeListener {
